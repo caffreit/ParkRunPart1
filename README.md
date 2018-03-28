@@ -5,7 +5,7 @@
 
 ## This post will begin by looking at how the "Finish Times" and "Runner Count" vary over time.<br> It then moves on to finding a relationship (if any) of the "Finish Times" with "Age" and "Runner Count".<br>It finshes with a similar analysis of the Ratio between male and female athletes/runners.
 
-## My hope is that I can tell a fun story and that, possibly, by the end we arrive at an interesting conclusion. 
+## My hope is that I can tell a fun story and that, possibly, by the end we arrive at an interesting conclusion. [homepage](https://caffreit.github.io/blog-/)
 
 
 ```python
@@ -45,7 +45,7 @@ path_to_file = 'C:\Users\Administrator\Documents\Python Scripts\examplepark.csv'
 data = pd.read_csv(path_to_file)
 ```
 
-#### We need to convert some numerical values from strings to floats so we can work with them.<br>Then print out the first few entries to check it worked as expected.
+We need to convert some numerical values from strings to floats so we can work with them.<br>Then print out the first few entries to check it worked as expected.
 
 
 ```python
