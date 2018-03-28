@@ -261,7 +261,7 @@ ax.grid('on', which='major', axis='y')
 ```
 
 
-![png](output_13_0.png)
+![png](/img/output_13_0.png)
 
 
 #### Even by eye we can see some periodicity in the Runner Count. There also seems to be a drop in average attendence from roughly 350 runners to somewhere between 2 and 3 hundred runners after 2015.<br>We can use a tool from statsmodel to decompose the trend and the seasonality from the data. Below are the outputted plots.
