@@ -275,7 +275,7 @@ fig.set_size_inches(15,6)
 ```
 
 
-![png](output_15_0.png)
+![png](/img/output_15_0.png)
 
 
 #### As we thought there is a definite periodicity in attendence. Peaking just after the beginning of a new year, no doubt reflecting all the New Year Resolutions made. This is followed by a steady decline over the course of the year reaching a minimum around Christmas.
@@ -313,7 +313,7 @@ ax.legend(['Max','Mean','Min'], fontsize=18)
 
 
 
-![png](output_20_1.png)
+![png](/img/output_20_1.png)
 
 
 #### There doesn't seem to be much going on in any of the plots. But first I'm going to get a closer look at the Mean and Minimum times.
@@ -337,7 +337,7 @@ ax.legend(['Mean','Min'], fontsize=18)
 
 
 
-![png](output_22_1.png)
+![png](/img/output_22_1.png)
 
 
 #### There is a distinct drop in the first place finishing times in mid 2014. I looked at the raw data to see why this may be. The cause is a small group of runners who all run the course in about 15 minutes. They appear suddenly, dominate the leaderboard and then leave never to be seen again. This drop shows up in the decomposition of trend and seasonality as well.
@@ -351,7 +351,7 @@ fig.set_size_inches(15,6)
 ```
 
 
-![png](output_24_0.png)
+![png](/img/output_24_0.png)
 
 
 #### Repeating the decomposition on the mean times, we see a seasonality. Just like the runner count, it peaks just after New Years Day and gradually decreases. Again, this relationship is not that surprising. If all the new "athletes" are only running because of a resolution and do not ordinarily spend their free time pounding the pavements it stands to reason the mean finish time would increase.
@@ -365,7 +365,7 @@ fig.set_size_inches(15,6)
 ```
 
 
-![png](output_26_0.png)
+![png](/img/output_26_0.png)
 
 
 #### Given that the mean finish time and the runner count both display seasonality, we should see a  positive dependence of mean time with runner count. So let's plot the Max, Mean and Min times against Runner Count.
@@ -394,7 +394,7 @@ plt.show()
 ```
 
 
-![png](output_29_0.png)
+![png](/img/output_29_0.png)
 
 
 #### Zooming in on the mean and min times we observe a clear increase in mean finish time with runner count. Interestingly, we also see a decrease in the min finish time. While we would expect an increase in runner count to "drag up" the mean time. This effect would not apply to the first place times since the slow fairweather runners won't affect the times of the hardcore roadrunners. In fact we would expect that as attendence increases there would be more hardcore runners who run the course in ever faster times.
@@ -413,7 +413,7 @@ plt.show()
 ```
 
 
-![png](output_31_0.png)
+![png](/img/output_31_0.png)
 
 
 #### For fun I said I'd plot the standard deviation of the finish times. When we decompose the time series we see the same seasonality as in Runner Count and mean finish time.
@@ -428,7 +428,7 @@ ax.grid('on', which='major', axis='y')
 ```
 
 
-![png](output_33_0.png)
+![png](/img/output_33_0.png)
 
 
 
@@ -440,7 +440,7 @@ fig.set_size_inches(15,6)
 ```
 
 
-![png](output_34_0.png)
+![png](/img/output_34_0.png)
 
 
 #### We see the positive dependence of the standard deviation of the finish times and the mean finish times and the runner count. As a larger number of slower people attend, naturally we should expect an increase in the standard deviation.
@@ -469,11 +469,11 @@ plt.show()
 ```
 
 
-![png](output_36_0.png)
+![png](/img/output_36_0.png)
 
 
 
-![png](output_36_1.png)
+![png](/img/output_36_1.png)
 
 
 ## Now I want us to look at how "Age Grade" and "Age Category" affects times and runner count.
@@ -665,7 +665,7 @@ ax.legend(['Max','Mean','Min'], fontsize=18)
 
 
 
-![png](output_42_1.png)
+![png](/img/output_42_1.png)
 
 
 #### the mean and min finsih times have areally smooth treand with age grade, I'm sure the shape of this curve is due to whatever formula is used to calculate the age grade. But I'm not too sure. Obviously those with the best age grade have the lowest times. It should be noted here that I'm considering each race run by someone individually. It might be better to take all the runners with age grade e.g. 80 and then consider each runner, find the average minimum of all the athletes with age grade 80.
@@ -687,7 +687,7 @@ ax.grid('on', which='major', axis='y')
 ```
 
 
-![png](output_45_0.png)
+![png](/img/output_45_0.png)
 
 
 #### As people get better they run times which are more tightly bunched together. People at the very top have all come up against the limits of what's possible. It would be interesting to see the count versis age grade.
@@ -707,7 +707,7 @@ ax.grid('on', which='major', axis='y')
 ```
 
 
-![png](output_47_0.png)
+![png](/img/output_47_0.png)
 
 
 
@@ -720,7 +720,7 @@ ax.grid('on', which='major', axis='y')
 ```
 
 
-![png](output_48_0.png)
+![png](/img/output_48_0.png)
 
 
 ### regardless of age the spread in abilties seems more or less constant. At older ages there isn't a lot of data, I can check the exact number of entries but the std figures aren't as reliable
@@ -858,7 +858,7 @@ ax.legend(['Ratio'], fontsize=18)
 
 
 
-![png](output_57_1.png)
+![png](/img/output_57_1.png)
 
 
 
@@ -871,7 +871,7 @@ fig.set_size_inches(15,6)
 ```
 
 
-![png](output_58_0.png)
+![png](/img/output_58_0.png)
 
 
 
@@ -991,7 +991,7 @@ ax.legend(['Ratio'], fontsize=18)
 
 
 
-![png](output_62_1.png)
+![png](/img/output_62_1.png)
 
 
 
@@ -1015,7 +1015,7 @@ ax.set_ylim(ymax=5)
 
 
 
-![png](output_63_1.png)
+![png](/img/output_63_1.png)
 
 
 
@@ -1131,7 +1131,7 @@ ax.legend(['Ratio'], fontsize=18)
     
 
 
-![png](output_66_2.png)
+![png](/img/output_66_2.png)
 
 
 
@@ -1241,7 +1241,7 @@ ax.set_xscale('log')
 ```
 
 
-![png](output_69_0.png)
+![png](/img/output_69_0.png)
 
 
 
