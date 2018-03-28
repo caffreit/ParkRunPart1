@@ -236,7 +236,7 @@ ax.grid('on', which='major', axis='y')
 ```
 
 
-![png](Exploatory Analysis of Malahide Park Run/output_4_0.png)
+![png](output_4_0.png)
 
 
 
