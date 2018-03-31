@@ -621,7 +621,7 @@ y
 
 ### Runner Count for each Age Category
 
-Below are two plots showing the distribution of number athletes per age category. The mean is clearly somewhere around 35 years of age. Funnily, young children are clearly dragged along by eaer parents, but once the children reach their teenage years they're not so easily roused from bed at half 8 on a Saturday morning.
+Below are two plots showing the distribution of number athletes per age category. The mean is clearly somewhere around 35 years of age. Funnily, young children are clearly dragged along by eager parents, but once the children reach their teenage years they're not so easily roused from bed at half 8 on a Saturday morning.
 
 
 ```python
