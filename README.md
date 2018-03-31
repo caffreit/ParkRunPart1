@@ -1,5 +1,6 @@
 
-## Exploratory Analysis of Park Run Data                                           [Homepage](https://caffreit.github.io/blog-/)
+[Homepage of blog-](https://caffreit.github.io/blog-/)
+## Exploratory Analysis of Park Run Data                                      
 ### Since the beginning of this year my girlfriend has dragged me out to the [local Park Run](http://www.parkrun.ie/malahide/). To say I am a reluctant participant is an understatement. However, she also told me that all past runs are recorded and are publically available.<br> The records go back several years and with roughly 80 thousand entries I thought it would make for an interesting dataset and a great opportunity to brush up my data science skills.<br> 
 This is the first in a series of posts. At the moment I have another couple in the works. This post will begin by looking at how the "Finish Times" and "Runner Count" vary over time. It then moves on to finding a relationship (if any) of the "Finish Times" with "Age" and "Runner Count". My hope is that I can tell a fun story and that, possibly, by the end we arrive at an interesting conclusion. 
 
