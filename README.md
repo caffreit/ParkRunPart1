@@ -167,7 +167,7 @@ ax.grid('on', which='major', axis='y')
 ```
 
 
-![png](output_10_0.png)
+![png](/img/output_10_0.png)
 
 
 Even by eye we can see some periodicity in the Runner Count. There also seems to be a drop in average attendence from roughly 350 runners to somewhere between 2 and 3 hundred runners after 2015.<br>We can use a tool from statsmodel to decompose the trend and the seasonality from the data. Below are the outputted plots.
@@ -216,7 +216,7 @@ ax.legend(['Max','Mean','Min'], fontsize=18)
 
 
 
-![png](output_17_1.png)
+![png](/img/output_17_1.png)
 
 
 There doesn't seem to be much going on in any of the plots. But let's get a closer look at the Mean and Minimum times.
@@ -240,7 +240,7 @@ ax.legend(['Mean','Min'], fontsize=18)
 
 
 
-![png](output_19_1.png)
+![png](/img/output_19_1.png)
 
 
 There is a distinct drop in the first place finishing times in mid 2014. I looked at the raw data to see why this was. It turns out there was a small group of runners who all ran the course in about 15 minutes. They appear suddenly, dominate the leaderboard and then leave never to be seen again. This drop shows up in the decomposition of trend and seasonality as well.
@@ -256,7 +256,7 @@ fig.set_size_inches(15,6)
 ```
 
 
-![png](output_22_0.png)
+![png](/img/output_22_0.png)
 
 
 Repeating the decomposition on the mean times, we see a seasonality. Just like the runner count, it peaks just after New Years Day and gradually decreases. Again, this relationship is not that surprising. If all the new "athletes" are only running because of a  New Years resolution and do not ordinarily spend their free time pounding the pavements it stands to reason the mean finish time would increase.
@@ -272,7 +272,7 @@ fig.set_size_inches(15,6)
 ```
 
 
-![png](output_25_0.png)
+![png](/img/output_25_0.png)
 
 
 Given that the mean finish time and the runner count both display seasonality, we should see a  positive dependence of mean time with runner count. So let's plot the Max, Mean and Min times against Runner Count.
@@ -311,7 +311,7 @@ plt.tight_layout()
 ```
 
 
-![png](output_29_0.png)
+![png](/img/output_29_0.png)
 
 
 Zooming in on the mean and minimum times we observe a clear increase in mean finish time with runner count. Interestingly, we also see a decrease in the min finish time. While we would expect an increase in runner count to "drag up" the mean time. 
@@ -332,7 +332,7 @@ ax.grid('on', which='major', axis='y')
 ```
 
 
-![png](output_33_0.png)
+![png](/img/output_33_0.png)
 
 
 #### Seasonality and Trend of Standard Devaition of Finish times
@@ -346,7 +346,7 @@ fig.set_size_inches(15,6)
 ```
 
 
-![png](output_35_0.png)
+![png](/img/output_35_0.png)
 
 
 We see the positive dependence of the standard deviation of the finish times and the mean finish times and the runner count. As a larger number of slower people attend, naturally we should expect an increase in the standard deviation.
@@ -374,7 +374,7 @@ plt.tight_layout()
 ```
 
 
-![png](output_38_0.png)
+![png](/img/output_38_0.png)
 
 
 ## Now I want us to look at how "Age Grade" and "Age Category" affects times and runner count.
@@ -566,7 +566,7 @@ plt.grid()
 ```
 
 
-![png](output_43_0.png)
+![png](/img/output_43_0.png)
 
 
 The mean and minimum finish times have a really smooth trend with Age Grade, I'm sure the shape of this curve is due to whatever formula is used to calculate the age grade. But I'm not too sure. Obviously those with the best age grade have the lowest times. It should be noted here that I'm considering each race run by someone individually. It might be better to take all the runners with age grade e.g. 80 and then consider each runner, find the average minimum of all the athletes with age grade 80.
@@ -609,7 +609,7 @@ plt.grid()
 ```
 
 
-![png](output_46_0.png)
+![png](/img/output_46_0.png)
 
 
 The maximum time stays roughly constant with age. Walking pace is about 5 km an hour and most people can walk for an hour. So I would say that all the max times we see here are just from people walking around.
@@ -670,7 +670,7 @@ plt.grid(True)
 ```
 
 
-![png](output_51_0.png)
+![png](/img/output_51_0.png)
 
 
 
@@ -686,7 +686,7 @@ sns.factorplot("Age_Cat", data=data,kind='count', aspect=2)
 
 
 
-![png](output_52_1.png)
+![png](/img/output_52_1.png)
 
 
 I've added this final plot mostly because it looks cool. It tells the same story as the previous plots. Now, we can also see how the distribution of finish times change between age categories.
@@ -731,7 +731,7 @@ g.despine(bottom=True, left=True)
 
 
 
-![png](output_54_1.png)
+![png](/img/output_54_1.png)
 
 
 That's all for now, be sure to check out the next post, **_"Battle of the Sexes"_**, where I compare the performance and attendence of both genders.
