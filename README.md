@@ -14,8 +14,7 @@ import scipy.stats as stats
 from statsmodels.tsa.seasonal import seasonal_decompose
 ```
 
-    C:\ProgramData\Anaconda2\lib\site-packages\statsmodels\compat\pandas.py:56: FutureWarning: The pandas.core.datetools module is deprecated and will be removed in a future version. Please use the pandas.tseries module instead.
-      from pandas.core import datetools
+
     
 
 ### Import the data file.<br>Some cleaning has already been done in Notepad and Excel.<br>Excel did not want to play nice with unicode datetime. CHrist!
