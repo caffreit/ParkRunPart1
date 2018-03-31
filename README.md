@@ -183,7 +183,7 @@ fig.set_size_inches(15,6)
 ```
 
 
-![png](output_13_0.png)
+![png](/img/output_13_0.png)
 
 
 As we thought there is a definite periodicity in attendence. Peaking just after the beginning of a new year, no doubt reflecting all the New Year Resolutions made. This is followed by a steady decline over the course of the year reaching a minimum around Christmas.
