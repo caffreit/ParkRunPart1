@@ -647,7 +647,7 @@ sns.factorplot("Age_Cat", data=data,kind='count', aspect=2)
 
 
 
-    <seaborn.axisgrid.FacetGrid at 0xc9edcc0>
+
 
 
 
@@ -692,7 +692,7 @@ g.despine(bottom=True, left=True)
 
 
 
-    <seaborn.axisgrid.FacetGrid at 0xfa650b8>
+
 
 
 
