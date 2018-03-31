@@ -368,7 +368,7 @@ plt.tight_layout()
 
 ## Now I want us to look at how "Age Grade" and "Age Category" affects times and runner count.
 
-Age Grade and Age Category are distinct and mean very different things. Age Category is imply what age bracket a runner falls into, e.g. 30-34 years old. Age Grade on the other hand is a measure of how good that runner is *relative* to other runners of the same age and gender. See here for more detail. [What is Age Grade?](https://support.parkrun.com/hc/en-us/articles/200565263-What-is-age-grading-)
+Age Grade and Age Category are distinct and mean very different things. Age Category is imply what age bracket a runner falls into, e.g. 30-34 years old. Age Grade on the other hand is a measure of how good that runner is *__relative__* to other runners of the same age and gender. See here for more detail. [What is Age Grade?](https://support.parkrun.com/hc/en-us/articles/200565263-What-is-age-grading-)
 
 First we need to do some data cleaning. 
 
@@ -656,7 +656,7 @@ sns.factorplot("Age_Cat", data=data,kind='count', aspect=2)
 ![png](/img/output_52_1.png)
 
 
-I've added this final plot mostly because it looks cool. It tells the same story as the previous plots. Now, we can also see how the distribution of finish times change between age categories.
+I've added the final plot below mostly because it looks cool. It tells the same story as the previous plots. Now, we can also see how the distribution of finish times change between age categories.
 
 And if anyone knows how to fix it, please let me know.
 
