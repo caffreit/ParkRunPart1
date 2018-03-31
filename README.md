@@ -1,5 +1,6 @@
 
-## Since the beginning of this year my girlfriend has dragged me out to the local [Park Run](http://www.parkrun.ie/malahide/). To say I am a reluctant participant is an understatement. However, she also told me that all past runs are recorded and are publically available.<br> Given the records go back several years and have roughly 80 thousand entries I thought it would make for an interesting dataset and a great opportunity to brush up my data science skills.<br> This is the first in a series of posts. At the moment I have another couple in the works.<br> This post will begin by looking at how the "Finish Times" and "Runner Count" vary over time.<br> It then moves on to finding a relationship (if any) of the "Finish Times" with "Age" and "Runner Count".<br> My hope is that I can tell a fun story and that, possibly, by the end we arrive at an interesting conclusion. 
+## Analysis of Park Run Data 1
+### Since the beginning of this year my girlfriend has dragged me out to the local [Park Run](http://www.parkrun.ie/malahide/). To say I am a reluctant participant is an understatement. However, she also told me that all past runs are recorded and are publically available.<br> Given the records go back several years and have roughly 80 thousand entries I thought it would make for an interesting dataset and a great opportunity to brush up my data science skills.<br> This is the first in a series of posts. At the moment I have another couple in the works.<br> This post will begin by looking at how the "Finish Times" and "Runner Count" vary over time.<br> It then moves on to finding a relationship (if any) of the "Finish Times" with "Age" and "Runner Count".<br> My hope is that I can tell a fun story and that, possibly, by the end we arrive at an interesting conclusion. 
 
 
 ```python
@@ -377,7 +378,7 @@ plt.tight_layout()
 
 ## Now I want us to look at how "Age Grade" and "Age Category" affects times and runner count.
 
-Age Grade and Age Category are distinct and mean very different things. Age Category is imply what age bracket a runner falls into, e.g. 30-34 years old. Age Grade on the other hand is a measure of how good that runner is *relative* to other runners of the same age and gender. See here for more detail https://support.parkrun.com/hc/en-us/articles/200565263-What-is-age-grading-
+Age Grade and Age Category are distinct and mean very different things. Age Category is imply what age bracket a runner falls into, e.g. 30-34 years old. Age Grade on the other hand is a measure of how good that runner is *relative* to other runners of the same age and gender. See here for more detail. [What is Age Grade?](https://support.parkrun.com/hc/en-us/articles/200565263-What-is-age-grading-)
 
 First we need to do some data cleaning. 
 
