@@ -199,7 +199,7 @@ ax.legend(['Max','Mean','Min'], fontsize=18)
 
 
 
-    <matplotlib.legend.Legend at 0x10614358>
+
 
 
 
@@ -223,7 +223,7 @@ ax.legend(['Mean','Min'], fontsize=18)
 
 
 
-    <matplotlib.legend.Legend at 0x10608748>
+    
 
 
 
@@ -383,36 +383,14 @@ df['Rounded_Age_Grade'] = df['Rounded_Age_Grade'].apply(lambda x: int(x*2))
 df.head()
 ```
 
-    C:\ProgramData\Anaconda2\lib\site-packages\ipykernel_launcher.py:2: SettingWithCopyWarning: 
-    A value is trying to be set on a copy of a slice from a DataFrame.
-    Try using .loc[row_indexer,col_indexer] = value instead
-    
-    See the caveats in the documentation: http://pandas.pydata.org/pandas-docs/stable/indexing.html#indexing-view-versus-copy
-      
-    C:\ProgramData\Anaconda2\lib\site-packages\ipykernel_launcher.py:3: SettingWithCopyWarning: 
-    A value is trying to be set on a copy of a slice from a DataFrame.
-    Try using .loc[row_indexer,col_indexer] = value instead
-    
-    See the caveats in the documentation: http://pandas.pydata.org/pandas-docs/stable/indexing.html#indexing-view-versus-copy
-      This is separate from the ipykernel package so we can avoid doing imports until
+
     
 
 
 
 
 <div>
-<style>
-    .dataframe thead tr:only-child th {
-        text-align: right;
-    }
 
-    .dataframe thead th {
-        text-align: left;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
 </style>
 <table border="1" class="dataframe">
   <thead>
